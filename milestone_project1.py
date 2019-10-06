@@ -17,9 +17,9 @@ def print_board(board):
 
 #To let the Player 1 select 'X' or 'O'
 def select_sign():
-    mark =''
+    mark = '' 
     while not (mark == 'X' or mark == 'O'):
-        mark = input("Player 1: Choose 'X' or 'O'")
+        mark = input("Player 1: Choose X or O")
     
     if mark == 'X':
         return ('X','O')
