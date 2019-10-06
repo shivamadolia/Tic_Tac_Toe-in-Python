@@ -15,7 +15,7 @@ def print_board(board):
     print(board[1]+'  |  '+board[2]+' |  '+board[3])
     print('   |    |')
 
-#To let the Player 1 select 'X' or 'O'
+#Let the Player 1 select 'X' or 'O'
 def select_sign():
     mark = '' 
     while not (mark == 'X' or mark == 'O'):
